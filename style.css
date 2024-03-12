@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100%;
+    width: 99%;
+    margin-left: 10px;
+}
+#nav1{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mid{
+    height: 50px;
+    width: 35%;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mid p{
+    cursor: pointer !important;
+    transition: transforam 0.3s ease;
+}
+#mid p:hover{
+    transform: scale(1.2) ;
+    text-emphasis: 10px;
+    background-color: rgb(235, 231, 223);
+    /* color: white; */
+    border-radius: 10px;
+    padding: 5px;
+}
+#nav1 h3{
+    transition: transforam 0.2s ease;
+}
+#nav1 h3:hover{
+    transform: scale(1.3);
+}
+#nav1>i{
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.8s ease ;
+}
+#nav1 i:hover{
+    transform: scale(1.3) rotate(360deg);
+    padding: 5px 6px;
+}
+#img{
+    height: 90%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+    background-size: cover;
+    background-image: url(https://d1mnxluw9mpf9w.cloudfront.net/media/6706/16x9/1200.jpg?format=webp&width=780&height=438);
+}
+#img>h1{
+    color: white;
+    font-size: 100px;
+    padding: 70px 0 0 50px;
+}
+#img>h6{
+    color: rgb(223, 223, 223);
+    padding: 0 0 0 50px;
+    font-size: 20px;
+    font-weight: 150;
+}
+#img>button{
+    margin: 50px 0 0 50px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+#imb{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding: 50px 40px 0 50px;
+}
+i{
+    border:rgb(225, 225, 266) solid 1.5px ;
+    border-radius: 200px;
+    font-weight: 52;
+}
+#l{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+#l>i{
+    padding: 5px 6px;
+    font-weight: 100;
+}
+#r>h6{
+    font-size: 20px;
+    font-weight: 1;
+}
+#r>i{
+    height: 30px;
+    width: 60px;
+    font-weight: 1;
+    padding: 3px 40px;
+    border-radius: 20px;
+}
+i:hover{
+    background-color:white ;
+    border:black solid 1.5px ;
+    color: black;
+}
+#i1{
+    margin-top: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -2px;
+    word-spacing: 8px;
+}
+#main>h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+button:hover{
+    background-color: black;
+    color: rgb(190, 186, 186);
+    transform: scale(1.2);
+   
+}
+#nav2{
+    /* background-color: aqua; */
+    margin-top: 5%;
+    margin-left: 20px;
+    height: 20%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* #nav2>h3{
+    text-align: ;
+} */
+.f1{
+   height: 100%;
+   width: 20%;
+   transition: transform 0.5s ease;
+}
+.f1:hover{
+    transform: scale(1.3);
+}
+.f1>i{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-bottom:50px ;
+    padding: 10px;
+    color: black;
+    background-color:none;
+    font-weight: 200;
+}
+.f1>h3{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.f1>p{
+    text-align: center;
+}
+#gs{
+    background-color: black;
+    padding: 2px;
+    color: white;
+}
+#choose{
+    margin: 40px 0 40px 50px;
+    font-size: 60px;
+}
+#nav3{
+    height: 55%;
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f2{
+    height: 100%;
+    width: 22%;
+  /* /  background-color: red; */
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.f2:hover{
+    transform: scale(1.2);
+}
+
+.im2{
+    height: 80%;
+    width: 100%;
+    /* background-color: blue; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px 10px 0 0;
+    transition: transform 1s ease-in 0.1s ease-out ;
+}
+.im2:hover{
+    transform:scale(1.3);
+}
+
+.im2>h6{
+    font-size: 20px;
+    width: 70px;
+    color: white;
+    border: solid white 1px;
+    padding: 0 0 4px 6px;
+    border-radius: 30px;
+}
+.f2>h5{
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 20px;
+    line-height: 8px;
+    padding-left: 10px;
+}
+.p2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 5px 10px;
+    margin-bottom: 5px;
+    
+}
+.p2>i{
+    font-size: 35px;
+    padding: 1.5px 3px 1.5px 3px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+}
+.p2>i:hover{
+    background-color: white;
+    color: black;
+}
+#img1{
+    background-image: url(https://media.istockphoto.com/id/1398991023/photo/back-view-of-a-woman-walking-through-tropical-forest.webp?b=1&s=170667a&w=0&k=20&c=6QrOm3ZY9IBuGz8-jy1tzP1ugEP5-CP6Rc-QM7nv0PA=);
+    background-size: contain;
+    object-fit: cover;
+}
+#img2{
+    background-image: url(https://i.pinimg.com/564x/ce/2f/50/ce2f50dd7ac990017f590ce88b4fdd07.jpg);
+    background-size: cover;
+}
+#img3{
+    background-image: url(https://media.istockphoto.com/id/1058824356/photo/man-hiking-through-rough-and-rocky-mountain-trail.webp?b=1&s=170667a&w=0&k=20&c=brYSqgkNOceOeL5N6438A7VjUvqtyAn1x693NZgZF2U=);
+    background-size: cover;
+}
+#img4{
+    background-image: url(https://myblissgetaway.com/wp-content/uploads/2023/06/azores-550x660.jpg);
+    background-size: cover;
+}
+#main>button{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 8px 60px;
+    border-radius: 30px;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
