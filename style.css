@@ -11,6 +11,7 @@ html,body{
 #main{
     height: 100%;
     width: 99%;
+    position: relative;
     margin-left: 10px;
 }
 #nav1{
